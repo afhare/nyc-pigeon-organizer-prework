@@ -1,4 +1,8 @@
 def nyc_pigeon_organizer(data)
   new_hash = {}
-  new_hash[name] = 
+  data.each do |thing, details|
+    details.each do |subthing, names|
+      
+      
+
 end
