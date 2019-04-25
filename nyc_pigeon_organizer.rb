@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
         new_hash[name] = {}
         new_hash[name][thing] = []
-        new_hash[name][thing] << subthing
+        new_hash[name][thing] << subthing.to_s
       end
     end
   end
